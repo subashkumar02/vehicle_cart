@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vehicle cart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="image">
+            <img src="https://imgd.aeplcdn.com/0x0/n/kys73sa_1483674.jpg" alt="" height="200px" width="400px" id="img">
+        </div>
+        <div id="details">
+            <h2>BMW 8 series 2023</h2>
+            <table>
+                <tr>
+                    <td>🚗</td>
+                    <td>Mileage:</td>
+                    <td>100 miles</td>
+                </tr>
+                <tr>
+                    <td>⛽</td>
+                    <td>Fuel:</td>
+                    <td>25 mpg</td>
+                </tr>
+                <tr>
+                    <td>🛡️</td>
+                    <td>Safety:</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p>Pick a color :</p>
+            <button id="black" onclick="cblack()"></button>
+            <button id="silver" onclick="csilver()"></button>
+            <button id="grey" onclick="cgrey()"></button>
+ 
+        </div>
+        <div class="cartsystem">
+            <input type="button" value="Add the cart" onclick="addingtocart" id="cartbutton">
+        </div>
+    </div>
+
+
+    <script>
+        cgrey = () => document.getElementById("img").setAttribute("src","https://stimg.cardekho.com/images/car-images/large/BMW/8-Series/7819/1593846063651/bluestone-matallic_909598.jpg?impolicy=resize&imwidth=420")
+        csilver = () => document.getElementById("img").setAttribute("src", "https://imgd-ct.aeplcdn.com/664x415/cw/ec/41406/BMW-8-Series-Exterior-170077.jpg?wm=0&q=75")
+        cblack = () => document.getElementById("img").setAttribute("src", "https://imgd.aeplcdn.com/0x0/n/kys73sa_1483674.jpg")
+        addingtocart = () => document.getElementsByTagName("input").setAttribute("value", "Added to cart successfully")
+    </script>
+</body>
+</html>
