@@ -1,0 +1,72 @@
+.container{
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: rgb(173, 166, 104);
+}
+#icon1{
+    height: 20px;
+}
+#icon2{
+    height: 20px;
+}
+#icon3{
+    height: 20px;
+}
+#icon4{
+    height: 30px;
+}
+#cart{
+    margin: 10px;
+    height: 30px;
+    width: 200px;
+}
+#b{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: blue;
+}
+#black{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: rgb(7, 6, 6);
+}
+#grey{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: grey;
+}
+#silver{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: silver;
+}
+#silver:hover{
+    scale: 120%;
+}
+#black:hover{
+    scale: 120%;
+}
+#grey:hover{
+    scale: 120%;
+}
+#blue:hover{
+    scale: 120%;
+}
+body{
+    background-color: rgb(121, 91, 11);
+}
+.cartsystem{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#cartbutton{
+    width: 150px;
+    height: 30px;
+}
